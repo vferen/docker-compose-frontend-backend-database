@@ -1,8 +1,18 @@
 # docker-compose-frontend-backend-database
-Full-stack app running in multiple containers using docker compose
+Descripción: Desplegamos un docker-compose con la app y la monitorización. Gracias al Github actions gestionamos CICD.
 
-Open terminal in the project root
-- Run docker-compose build 
-- Run docker-compose up
-- open browser localhost:5500
-- Enjoy
+Instalación: Para correr el proyecto, simplemente hay que descargarlo y en la carpeta del proyecto, lanzar un docker-compose up, y en un minuto despliega.
+
+El puerto por defecto es el 2000 para evitar conflictos con otros contenedores
+
+Requisitos :
+docker hub
+git
+java
+navegador web
+git
+
+
+Para la monitorización accedemos por el localHOST:3000 y llegaremos a grafana.
+
+
